@@ -1,0 +1,23 @@
+<div class="d-flex justify-content-center align-items-center mt-5">
+
+  <div class="card">
+    <div class="card-header text-bg-danger">
+      <div class="input-group mt-2 mb-4">
+        <input id="search" type="text" class="form-control" placeholder="Pokemon name">
+        
+      </div>
+      <a class="btn" type="button" id="btnSearch" style="border-radius: 50%; border-color: black; background-color: white; padding: 10px 15px; border-width: 2px; position: absolute; top:60px; left: 93px;">
+        <i class="bi bi-search"></i>
+      </a>
+    </div>
+    <div class="card-body">
+      <div class="mb-3 mt-3">
+        <input class="form-control" id="name" type="text" [(ngModel)]="name">
+      </div>
+      <div >
+        <input class="form-control" id="order" type="text" [(ngModel)]="order">
+      </div>
+    </div>
+  </div>
+
+</div>
